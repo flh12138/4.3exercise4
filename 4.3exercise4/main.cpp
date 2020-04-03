@@ -8,7 +8,9 @@ int main()
 	cv::Mat dstMat;
 	cv::Mat srcMat = cv::imread("E:\\PIC\\lena.jpg", 1);
 
+
 	if (srcMat.empty())return -1;
+
 
 	const cv::Point2f pst1[] = {
 									cv::Point2f(150,150),
